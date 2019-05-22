@@ -145,7 +145,7 @@ function onLoadModelSuccess(model) {
 
   if (model.is3d() && flagModel === false) {
     disableReportMenu();
-    viewer['3d'].addEventListener(Autodesk.Viewing.GEOMETRY_LOADED_EVENT, function(event) {
+    viewer['3d'].addEventListener(Autodesk.Viewing.TEXTURES_LOADED_EVENT, function(event) {
       enableReportMenu();
       //runReport(-1);   // run the currently selected report (the first one if this is the first model loaded, current one if loading a subsequent model)
       $("#tab_button_1").click();
