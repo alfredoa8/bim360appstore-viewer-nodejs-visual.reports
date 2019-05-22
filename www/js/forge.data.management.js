@@ -110,3 +110,16 @@ function prepareDataManagementTree() {
     }
   });
 }
+
+var token;
+
+function exportbutton() {
+
+  function statusCallback(completed, message) {
+    $.notify(message, { className: "info", position:"bottom right" });
+    $('#downloadExcel').prop("disabled", !completed);
+  }
+
+  alert('exporting');
+  ForgeXLS.downloadXLSX(_URN, "test.csv", token, statusCallback, "rvt" );/*Optional*/
+}

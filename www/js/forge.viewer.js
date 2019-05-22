@@ -17,6 +17,7 @@
 /////////////////////////////////////////////////////////////////////
 
 var viewer = {};
+var _URN;
 viewer['3d'] = null;
 viewer['2d'] = null;
 var flagModel = false;
@@ -47,6 +48,7 @@ function blankOutReportPane2d() {
 }
 
 function launchViewer(urn, div3d, div2d) {
+  _URN = urn;
   blankOutReportPane()
   var options = {
     env: 'AutodeskProduction',

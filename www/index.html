@@ -36,7 +36,7 @@
 
 
  <!-- XLS related libraries -->
-  <script src="/js/xlsextension.js"></script>
+  <!--script src="/js/xlsextension.js"></script-->
   <script src="js/libraries/Blob.js"></script> <!-- https://github.com/eligrey/Blob.js -->
   <script src="js/libraries/FileSaver.min.js"></script> <!-- https://github.com/eligrey/FileSaver.js -->
   <script src="js/libraries/xlsx.core.min.js"></script> <!-- https://github.com/SheetJS/js-xlsx -->
@@ -56,6 +56,10 @@
     </ul>
 
     <ul class="nav navbar-nav navbar-right">
+      <li>
+        <a href="#" id="Export" onclick="exportbutton()"><span class="glyphicon glyphicon-info-sign"></span>
+          <span id="infoText" title="Export to Excel">Export-CSV</span></a>
+      </li>
       <li>
         <a href="#" id="Help" onclick="$('#about').modal('show');"><span class="glyphicon glyphicon-info-sign"></span>
           <span id="infoText" title="About this Autodesk App">About</span></a>
