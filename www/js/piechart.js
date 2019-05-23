@@ -20,12 +20,10 @@ var _pieChart = null;
 var _sortOrder = "value-desc";
 
 var _reportOptions = [
-    { label : "Qty - Assembly Code",    fieldName: "Assembly Code",     fieldType : "Properties"},
-    { label : "Qty - Type",             fieldName: "",                  fieldType : "ModelType"},
-    { label : "Qty - Level",            fieldName: "Level",             fieldType : "Properties"},
-    { label : "Qty - Base Constraint",  fieldName: "Base Constraint",   fieldType : "Properties"},
-    { label : "Qty - System Type",      fieldName: "System Type",       fieldType : "Properties"},
-    { label : "Qty - Material",         fieldName: "Material",          fieldType : "Properties"}
+    { label : "Assembly Code",          fieldName: "Assembly Code",     fieldType : "Properties"},
+    { label : "Material Keynote",       fieldName: "Structural Material",  fieldType : "Properties"},
+    { label : "Element Keynote",        fieldName: "Keynote",   fieldType : "Properties"},
+    { label : "Element Keynote Description",  fieldName: "Assembly Description",   fieldType : "Properties"}
 ];
 
     // populate the popup menu with the avaialable models to load (from the array above)

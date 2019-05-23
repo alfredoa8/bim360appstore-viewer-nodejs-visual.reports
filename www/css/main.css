@@ -28,6 +28,7 @@ svg{
     height: calc(100vh - 55px);
     width: calc(30vw - 36px);
     overflow: auto;
+    border-right: 1px solid;
 }
 
 
