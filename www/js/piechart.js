@@ -20,13 +20,13 @@ var _pieChart = null;
 var _sortOrder = "value-desc";
 
 var _reportOptions = [
-    { label : "Type",          fieldName: "",     fieldType : "Modeltype"},
-    { label : "Type Name",          fieldName: "Type Name",     fieldType : "Properties"},
-    { label : "Level",          fieldName: "Level",     fieldType : "Properties"},
-    { label : "Assembly Code",          fieldName: "Assembly Code",     fieldType : "Properties"},
-    { label : "Material Keynote",       fieldName: "Structural Material",  fieldType : "Properties"},
-    { label : "Element Keynote",        fieldName: "Keynote",   fieldType : "Properties"},
-    { label : "Assembly Description",  fieldName: "Assembly Description",   fieldType : "Properties"}
+    { label : "Categoria",          fieldName: "",     fieldType : "Modeltype"},
+    { label : "Tipo",          fieldName: "Type Name",     fieldType : "Properties"},
+    { label : "Nivel",          fieldName: "Level",     fieldType : "Properties"},
+    { label : "Codigo de Montaje",          fieldName: "Assembly Code",     fieldType : "Properties"},
+    { label : "Keynote de Material",       fieldName: "Structural Material",  fieldType : "Properties"},
+    { label : "Keynote de Elemento",        fieldName: "Keynote",   fieldType : "Properties"},
+    { label : "Descripcion C de Montaje",  fieldName: "Assembly Description",   fieldType : "Properties"}
 ];
 
     // populate the popup menu with the avaialable models to load (from the array above)
