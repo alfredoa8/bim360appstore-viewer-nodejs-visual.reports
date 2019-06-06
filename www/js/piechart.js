@@ -13,7 +13,7 @@
 // AUTODESK SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTY OF
 // MERCHANTABILITY OR FITNESS FOR A PARTICULAR USE.  AUTODESK, INC.
 // DOES NOT WARRANT THAT THE OPERATION OF THE PROGRAM WILL BE
-// UNINTERRUPTED OR ERROR FREE.
+// UNINTERRUPTED OR ERROR FREE.}
 /////////////////////////////////////////////////////////////////////
 
 var _pieChart = null;
@@ -24,7 +24,8 @@ var _reportOptions = [
     { label : "Tipo",          fieldName: "Type Name",     fieldType : "Properties"},
     { label : "Nivel",          fieldName: "Level",     fieldType : "Properties"},
     { label : "Codigo de Montaje",          fieldName: "Assembly Code",     fieldType : "Properties"},
-    { label : "Keynote de Material",       fieldName: "Structural Material",  fieldType : "Properties"},
+    { label : "Material Estructural",       fieldName: "Structural Material",  fieldType : "Properties"},
+    { label : "Material",       fieldName: "Material",  fieldType : "Properties"},
     { label : "Keynote de Elemento",        fieldName: "Keynote",   fieldType : "Properties"},
     { label : "Descripcion C de Montaje",  fieldName: "Assembly Description",   fieldType : "Properties"}
 ];
